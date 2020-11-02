@@ -5,6 +5,7 @@
     <form action="/profile/{{$user->id}}" enctype="multipart/form-data" method="post">
 
     @csrf
+
     @method('PATCH')
 
     <div class="row offset-2">
@@ -12,7 +13,6 @@
     <div class="row">
         <div class="col-8 offset-2">
             <div class="form-group row">
-
                 <label for="title" class="col-md-4 col-form-label">Edit title</label>
                     <input id="title" 
                         type="text" 
@@ -28,7 +28,6 @@
             </div>
 
             <div class="form-group row">
-
                 <label for="description" class="col-md-4 col-form-label">Edit description</label>
                     <input id="description" 
                         type="text" 
