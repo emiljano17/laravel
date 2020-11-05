@@ -34,7 +34,7 @@
                         class="form-control @error('description') is-invalid @enderror" 
                         name="description" 
                         value="{{ old('description') ?? $user->profile->description}}" 
-                        required autocomplete="description" autofocus>
+                         autocomplete="description" autofocus>
                             @error('description')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -50,7 +50,7 @@
                         class="form-control @error('url') is-invalid @enderror" 
                         name="url" 
                         value="{{ old('url') ?? $user->profile->url }}" 
-                        required autocomplete="url" autofocus>
+                         autocomplete="url" autofocus>
                             @error('url')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
