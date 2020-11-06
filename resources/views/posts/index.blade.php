@@ -11,7 +11,7 @@
                             <strong> {{$post->user->username}} </strong>
                         </a> 
                     </div>
-                <a href="/profile/{{ $post->user->id }}">
+                <a href="/profile/{{$post->user->id}}">
                     <img src="/storage/{{$post->image}}" class="w-100" alt="">
                 </a>
             </div>
