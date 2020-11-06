@@ -1,7 +1,7 @@
 @component('mail::message')
-# Welcome to new Instagram page
+# Welcome to Insta-Shqip
 
-The body of your message.
+Thank you for joining our community.
 
 Thanks,<br>
 {{ config('app.name') }}
